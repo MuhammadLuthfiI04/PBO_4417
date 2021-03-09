@@ -1,39 +1,40 @@
 public class TestTV {
+    // ATTRIBUTE
     int channel; 
     int volumeLevel; 
     boolean on; 
     TestTV() { 
     }
 
-
-    void turnOn(boolean on){
+    //METHOD
+    void turnOn(boolean on){ // Kondisi TV Menyala
         on = true;
     }
-    void turnOff(boolean on){
+    void turnOff(boolean on){ // Kondisi TV Mati
         on = false;
     }
 
-    void setChannel(int newChannel){
+    void setChannel(int newChannel){ // Set Channel pada TV
         channel = newChannel;
     }
 
-    void setVolume(int newVolumeLevel){
+    void setVolume(int newVolumeLevel){ // Set Volume pada TV
         volumeLevel = newVolumeLevel;
     }
 
-    void channelUp(){
+    void channelUp(){ // Menambah atau menaikkan Channel
         ++channel;
     }
 
-    void channelDown(){
+    void channelDown(){ // Mengurangi atau menurunkan Channel
         --channel;
     }
 
-    void volumeUp(){
+    void volumeUp(){ // Menambah atau menaikkan Volume
         ++volumeLevel;
     }
 
-    void volumeDown(){
+    void volumeDown(){ // Mengurangi atau menurunkan Volume
         --volumeLevel;
     }
 
