@@ -11,7 +11,7 @@ class Mobil2 {
         System.out.println("Kondisi: Hidup");
     }
 
-    void matikanMobil(boolean off){ // Kondisi Mobil Mati
+    void matikanMobil(boolean on){ // Kondisi Mobil Mati
         on = false;
         System.out.println("Kondisi: Mati");
     }
