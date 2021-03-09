@@ -1,7 +1,9 @@
 class SimpleCircle {
+  // ATTRIBUTE
   double radius, 
   pi = Math.PI; //3.14 atau 22/7
 
+  // METHOD
   /** lingkaran yang memiliki radius 1  */
   SimpleCircle(){
     radius = 1;
