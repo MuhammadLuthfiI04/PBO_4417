@@ -1,7 +1,9 @@
 public class matematika {
+    // ATTRIBUTE
     int hasil = 0;
     int bilangan1 = 0;
     
+    // METHOD
     // Rumus Pertambahan 
     void pertambahan(int newBilangan){
         hasil =  bilangan1 + newBilangan;
@@ -19,6 +21,7 @@ public class matematika {
         hasil =  bilangan1 * newBilangan;
         System.out.println("\nPerkalian: "+ bilangan1 + " x " + newBilangan + " = " + hasil);
     }
+    
     // Rumus Pembagian 
     void pembagian(int newBilangan){
         hasil =  bilangan1 / newBilangan;
