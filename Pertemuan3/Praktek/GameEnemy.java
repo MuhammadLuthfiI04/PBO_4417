@@ -33,11 +33,11 @@ public class GameEnemy {
         return this.height;
     }
     
-    int getPositionX() {
+    int getX() {
         return this.positionX;
     }
     
-    int getPositionY() {
+    int getY() {
         return this.positionY;
     }
     
