@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
 import mvc.DAOInterface.IUser;
 /**
  *
- * @author ASUS
+ * @author acer
  */
 public class ControllerUser {
     FormUser frameUser;
