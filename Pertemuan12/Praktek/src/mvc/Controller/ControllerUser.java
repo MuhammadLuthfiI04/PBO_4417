@@ -25,14 +25,14 @@ public class ControllerUser {
     }
     public void insert(){
         if(!frameUser.getTxtNik().getText().trim().isEmpty()& !frameUser.getTxtNama().getText().trim().isEmpty()){
-            User u = new User();
-            u.setNik(Integer.parseInt(frameUser.getTxtNik().getText()));
-            u.setNama(frameUser.getTxtNama().getText());
-            u.setJk(frameUser.getTxtJk().getSelectedItem().toString());
-            u.setAlamat(frameUser.getTxtAlamat().getText());
-            u.setUsia(Integer.parseInt(frameUser.getTxtUsia().getText()));
-            u.setAlasan(frameUser.getTxtAlasan().getText());
-            implUser.insert(u);
+            User lb = new User();
+            lb.setNik(Integer.parseInt(frameUser.getTxtNik().getText()));
+            lb.setNama(frameUser.getTxtNama().getText());
+            lb.setJk(frameUser.getTxtJk().getSelectedItem().toString());
+            lb.setAlamat(frameUser.getTxtAlamat().getText());
+            lb.setUsia(Integer.parseInt(frameUser.getTxtUsia().getText()));
+            lb.setAlasan(frameUser.getTxtAlasan().getText());
+            implUser.insert(lb);
             JOptionPane.showMessageDialog(null, "Simpan Data Sukses");
         } else {
             JOptionPane.showMessageDialog(frameUser, "Data Tidak Boleh Kosong");
