@@ -13,7 +13,7 @@ import mvc.Controller.ControllerUser;
 import mvc.View.FormMenu;
 /**
  *
- * @author ASUS
+ * @author acer
  */
 public class FormUser extends javax.swing.JFrame {
 
